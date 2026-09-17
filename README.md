@@ -29,14 +29,19 @@ An institutional-grade Financial Planning & Analysis (FP&A) repository analyzing
 
 ## 🔬 Analytical & Forecasting Methodology
 
-1. **Revenue Growth Modeling:**
-   * Calculated historical multi-period revenue growth rates across FY2023–FY2025, arriving at a 3-year historical average of **3.67%**.
-   * Applied this benchmark to FY2025 consolidated revenue:
-     $$\text{Forecast Revenue}_{2026} = \$47,941\text{M} \times (1 + 3.67\%) = \$49,698.84\text{M} \approx \mathbf{\$49.70bn}$$
+### 1. Revenue Growth Modeling
 
-2. **Operating Income Baseline Scenario:**
-   * Utilized the **FY2025 Exit-Rate Margin (28.71%)** as the baseline retention assumption, capturing the latest historical operating margin level rather than diluting performance with earlier multi-period averages:
-     $$\text{Forecast Operating Income}_{2026} = \$49,698.84\text{M} \times 28.71\% = \$14,268.54\text{M} \approx \mathbf{\$14.27bn}$$
+Historical multi-period revenue growth rates were calculated across FY2023–FY2025, resulting in a **3-year historical average growth rate of 3.67%**.
+
+Applying this benchmark to FY2025 consolidated revenue:
+
+**Forecast Revenue (2026) = $47,941M × (1 + 3.67%) = $49,698.84M ≈ $49.70bn**
+
+### 2. Operating Income Baseline Scenario
+
+The **FY2025 exit-rate operating margin of 28.71%** was adopted as the baseline retention assumption. This approach reflects the company’s most recent historical operating margin and avoids diluting the forecast with earlier multi-period averages.
+
+**Forecast Operating Income (2026) = $49,698.84M × 28.71% = $14,268.54M ≈ $14.27bn**
 
 ---
 
