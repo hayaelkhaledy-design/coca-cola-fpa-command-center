@@ -59,3 +59,9 @@ coca-cola-fpa-command-center/
 ├── forecasting/              # 2026 forecast scenario schedules & calculations
 ├── financial_model/          # Methodology notes & P&L bridge structure
 └── executive_summary/        # 2-page C-suite briefing document (.docx & .pdf)
+
+
+## 📊 Executive Dashboard Preview
+![Executive Overview](Screenshot%202026-09-17%20015358.png)
+![Revenue Drivers](Screenshot%202026-09-17%20015516.png)
+![EMEA Performance](Screenshot%202026-09-17%20015553.png)
