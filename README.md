@@ -7,10 +7,10 @@ An institutional-grade Financial Planning & Analysis (FP&A) repository analyzing
 
 ## ⚡ Executive Summary (1-Minute Briefing)
 
-* **The Problem:** Evaluate post-inflationary revenue resilience, pricing elasticity, and profitability sustainability across global operations and the EMEA segment.
-* **The Data:** 3-year audited financial datasets covering consolidated P&L statements, segment reporting (EMEA), and growth driver attributions (Price/Mix, Volume, FX, Divestitures).
-* **The Tools:** Microsoft Excel (Financial Modeling), SQL (Integrity Audits & Aggregations), Power BI (Executive BI Architecture), Microsoft Word (C-Suite Summary).
-* **The Findings:** Net Revenue increased from $45.75bn to $47.94bn (~2.36% CAGR). FY2025 operating margin expanded to 28.71% led by price execution.
+* **The Problem:** Evaluate post-inflationary revenue resilience, pricing and mix effects, and profitability sustainability across global operations and the EMEA segment.
+* **The Data:** 3-year financial datasets sourced from SEC filings and company disclosures, covering consolidated P&L statements, segment reporting (EMEA), and growth driver attributions (Price/Mix, Volume, FX, Divestitures).
+* **The Tools:** Microsoft Excel (Financial Modeling), SQL (Data Validation & Aggregations), Power BI (Executive BI Architecture), Microsoft Word (C-Suite Summary).
+* **The Findings:** Net Revenue increased from $45.75bn to $47.94bn (~2.36% CAGR). FY2025 operating margin expanded to 28.71%.
 * **The 2026 Forecast Scenario:** Baseline analytical projection yields **$49.70bn in Revenue** and **$14.27bn in Operating Income** based on historical benchmarks.
 
 ---
@@ -20,7 +20,7 @@ An institutional-grade Financial Planning & Analysis (FP&A) repository analyzing
 | Indicator | FY2023 | FY2024 | FY2025 | FY2026 (Baseline Projection) |
 | :--- | :--- | :--- | :--- | :--- |
 | **Net Operating Revenue** | $45,754M | $47,061M | $47,941M | **$49,699M (~$49.70bn)** |
-| **Gross Profit Margin** | 59.52% | 60.00% | 61.63% | — |
+| **Gross Profit Margin** | 59.52% | 61.08% | 61.63% | — |
 | **Operating Income** | $11,311M | $9,992M | $13,762M | **$14,270M (~$14.27bn)** |
 | **Operating Margin** | 24.72% | 21.23% | 28.71% | **28.71% (Exit-Rate Assumption)** |
 | **EMEA Revenue Contribution**| 16.20% | 15.80% | 22.60% | — |
@@ -50,18 +50,12 @@ The **FY2025 exit-rate operating margin of 28.71%** was adopted as the baseline 
 ```text
 coca-cola-fpa-command-center/
 │
-├── README.md                 # Executive portfolio documentation
-├── data/                     # Source financial datasets (Excel / CSV)
-├── excel/                    # Financial modeling schedules & variance sheets
-├── sql/                      # Validation queries & multi-period aggregations
-├── powerbi/                  # Production .pbix file & export PDF report
-├── screenshots/              # High-resolution dashboard page visuals
-├── forecasting/              # 2026 forecast scenario schedules & calculations
-├── financial_model/          # Methodology notes & P&L bridge structure
-└── executive_summary/        # 2-page C-suite briefing document (.docx & .pdf)
-
-
-## 📊 Executive Dashboard Preview
-![Executive Overview](Screenshot%202026-09-17%20015358.png)
-![Revenue Drivers](Screenshot%202026-09-17%20015516.png)
-![EMEA Performance](Screenshot%202026-09-17%20015553.png)
+├── README.md
+├── sql/
+├── Coca_Cola_FPA_Executive_Summary.docx
+├── Coca-Cola_FPA_Performance_Dashboard.pbix
+├── Coca-Cola_FPA_Performance_Dashboard.pbix.pdf
+└── screenshots/
+    ├── Screenshot 2026-09-17 015358.png
+    ├── Screenshot 2026-09-17 015516.png
+    └── Screenshot 2026-09-17 015553.png
